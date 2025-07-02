@@ -756,67 +756,55 @@ img {
   }
 }
 
-
-/* Section Styling */
+/* Testimonials Section */
 .testimonials {
-  background-color: #f8f8f8; /* Light grey background */
-  padding: 40px 0;
-  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
 }
 
-/* Grid Layout for Testimonials */
 .testimonial-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* responsive grid */
-  gap: 20px;
-  justify-items: center;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-/* Individual Testimonial Block */
 .testimonial {
-  background: #fff; /* White background for each testimonial */
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Image Styling */
 .testimonial img {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 15px;
-  transition: transform 0.3s ease-in-out;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 3px solid #ddd;
 }
 
-/* Text Styling */
 .testimonial p {
-  font-size: 16px;
-  color: #555;
   font-style: italic;
+  font-size: 1.1rem;
+  color: #333;
   margin-bottom: 15px;
+  line-height: 1.6;
 }
 
-/* Author Styling */
 .testimonial cite {
-  font-size: 14px;
-  font-weight: 500;
-  color: #777;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #555;
 }
 
-/* Hover Effects */
-.testimonial:hover {
-  transform: translateY(-10px); /* Lift the testimonial slightly */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-}
 
-/* Hover Effect on Image */
-.testimonial img:hover {
-  transform: scale(1.1); /* Slight zoom on image */
-}
 
 
 /* Newsletter */
